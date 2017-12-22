@@ -1,0 +1,20 @@
+{
+  "name": "fake-users-administrator",
+  "version": "1.0.0",
+  "description": "a fake user array administrator ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fake",
+    "user",
+    "administrator"
+  ],
+  "author": "parisimattia <mattia_parisi@hotmail.it>",
+  "license": "MIT",
+  "dependencies": {
+    "fake-users100295": "^1.0.2"
+  },
+  "devDependencies": {}
+}

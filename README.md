@@ -1,4 +1,4 @@
-#API for fake users array
+# API for fake users array
 
 ## ARRAY :
 
@@ -43,7 +43,7 @@ var users = [
 ];
 ```
 
-##API's functions:
+## API's functions:
 
   - Get an user
   - Get an user by id

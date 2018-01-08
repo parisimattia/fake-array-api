@@ -1,4 +1,4 @@
-# API for fake users array
+# API's for fake users array
 
 ## ARRAY :
 

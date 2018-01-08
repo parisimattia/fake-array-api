@@ -14,7 +14,7 @@
   "author": "parisimattia <mattia_parisi@hotmail.it>",
   "license": "MIT",
   "dependencies": {
-    "fake-users100295": "^1.0.2"
+    "fake-users100295": "^1.1.0"
   },
   "devDependencies": {}
 }

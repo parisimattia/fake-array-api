@@ -60,5 +60,6 @@ var users = [
   - DELETE : /users/:id // delete an user from users array by id
   - PUT : /users/:id // edit an user of users array
   - put : /users // reset users array
-fake-array-api
-# fake-array-api
+
+## Author 
+Mattia Parisi

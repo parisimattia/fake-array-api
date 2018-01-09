@@ -6,6 +6,9 @@
 npm install fake-user-administrator
 ```
 
+# API's for fake users array
+
+
 ## ARRAY :
 
 ```js
@@ -67,6 +70,6 @@ var users = [
   - PUT : /users/:id (edit an user of users array)
   - put : /users (reset users array)
 
-## Author
 
-Mattia Parisi.
+## Author
+Mattia Parisi

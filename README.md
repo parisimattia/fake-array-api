@@ -1,5 +1,10 @@
 # API's for fake users array
 
+## Installation
+```
+npm install fake-users-administrator
+```
+
 ## ARRAY :
 
 ```js

@@ -242,7 +242,6 @@ describe('USERS RESET', function() {
     request(app)
       .put('/users')
       .set('Accept', 'application/json')
-      .send({ })
       .expect(200)
       .end(function(err, res) {
         if (err) return done(err);

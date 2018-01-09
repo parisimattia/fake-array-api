@@ -54,12 +54,12 @@ var users = [
 
 ## ROOTS:
 
-  - GET : /users // get users array
-  - GET : /users/:id // get an user from users array by id
-  - POST :  /users // post an user on the array
-  - DELETE : /users/:id // delete an user from users array by id
-  - PUT : /users/:id // edit an user of users array
-  - put : /users // reset users array
+  - GET : /users (get users array)
+  - GET : /users/:id (get an user from users array by id)
+  - POST :  /users (post an user on the array)
+  - DELETE : /users/:id (delete an user from users array by id)
+  - PUT : /users/:id (edit an user of users array)
+  - put : /users (reset users array)
 
 ## Author 
 Mattia Parisi

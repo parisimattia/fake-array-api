@@ -1,4 +1,10 @@
-#API for fake users array
+# API for fake users array
+
+## Installation
+
+```
+npm install fake-user-administrator
+```
 
 ## ARRAY :
 
@@ -43,7 +49,7 @@ var users = [
 ];
 ```
 
-##API's functions:
+## API's functions:
 
   - Get an user
   - Get an user by id
@@ -54,11 +60,13 @@ var users = [
 
 ## ROOTS:
 
-  - GET : /users // get users array
-  - GET : /users/:id // get an user from users array by id
-  - POST :  /users // post an user on the array
-  - DELETE : /users/:id // delete an user from users array by id
-  - PUT : /users/:id // edit an user of users array
-  - put : /users // reset users array
-fake-array-api
-# fake-array-api
+  - GET : /users (get users array)
+  - GET : /users/:id (get an user from users array by id)
+  - POST :  /users (post an user on the array)
+  - DELETE : /users/:id (delete an user from users array by id)
+  - PUT : /users/:id (edit an user of users array)
+  - put : /users (reset users array)
+
+## Author
+
+Mattia Parisi

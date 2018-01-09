@@ -69,4 +69,4 @@ var users = [
 
 ## Author
 
-Mattia Parisi
+Mattia Parisi.

@@ -2,17 +2,15 @@ var express = require ('express');
 var router = express.Router ();
 
 var primoMiddleware = function(req,res,next){
-  if(req.query.token == 'pippo1'){
+  if(req.query.token == 'pippococaina'){
     next();
   }else {
-    res.send(401,'Autentication failed');
+    res.status(401)send({message : 'Autentication failed'});
   }
 }
 
-var secondoMiddleware = function(req, res, next) {
-  res.send(200, 'Autentication succeded')
-}
-
-router.get ('/', primoMiddleware, secondoMiddleware)
+router.get ('/', primoMiddleware, function(req, res, next) {
+  res.status(200).send({message : 'Autentication succeded'})
+})
 
 module.exports = router;

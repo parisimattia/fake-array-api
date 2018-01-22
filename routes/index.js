@@ -5,7 +5,7 @@ var primoMiddleware = function(req,res,next){
   if(req.query.token == 'pippococaina'){
     next();
   }else {
-    res.status(401)send({message : 'Autentication failed'});
+    res.status(401).send({message : 'Autentication failed'});
   }
 }
 

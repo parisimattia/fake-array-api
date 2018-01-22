@@ -49,5 +49,8 @@ app.put('/users', function(req,res){
   res.status(200).json(fakeUsers.reset());
 })
 
+var port = process.env.PORT || 8000;
+app.listen(port, function() {
+    console.log("App is running on port " + port);
+});
 module.exports = app;
-app.listen(3002);

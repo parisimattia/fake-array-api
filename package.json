@@ -22,6 +22,10 @@
     "type": "git",
     "url": "git+https://github.com/parisimattia/fake-array-api.git"
   },
+  "scripts": {
+    "test": "mocha",
+    "start": "node app"
+  },
   "bugs": {
     "url": "https://github.com/parisimattia/fake-array-api/issues"
   },

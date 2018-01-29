@@ -2,7 +2,7 @@ var express = require ('express');
 var router = express.Router ();
 
 var primoMiddleware = function(req,res,next){
-  if(req.query.token == 'pippococaina'){
+  if(req.query.token == 'cangroo'){
     next();
   }else {
     res.status(401).send({message : 'Autentication failed'});
